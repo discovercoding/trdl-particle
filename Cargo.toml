@@ -1,0 +1,14 @@
+[package]
+name = "trdl-particle"
+version = "0.1.0"
+authors = ["JeremySorensen <jeremy.a.sorensen@gmail.com>"]
+
+[dependencies]
+rand = "0.3"
+glutin = "*"
+trdl = { git = "https://github.com/discovercoding/trdl" }
+
+
+[[bin]]
+name = "trdl-particle"
+path = "src/main.rs"
